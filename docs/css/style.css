@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #f3f3f3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding-top: 52px; /* Add padding to prevent content from being hidden by the fixed navbar */
+}
+
+.container {
+  width: min(95vw, 800px);
+  margin: 8px;
+}
